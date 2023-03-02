@@ -4,7 +4,7 @@
         "aws_region": "us-east-1",
         "project_name": "parte2",
         "runtime": "python3.8",
-        "s3_bucket": "zappa-6j268zaxv"
+        "s3_bucket": "zappa-v72oqs9bv",
         "keep_warm": false,
         "role_name": "LabRole",
         "manage_roles": false,

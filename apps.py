@@ -2,7 +2,7 @@ import json
 from urllib.request import urlopen
 import boto3
 
-def lambda_handler(event, context):
+def f(event, context):
     # TODO implement
     with urlopen("https://totoro.banrep.gov.co/estadisticas-economicas/rest/consultaDatosService/consultaMercadoCambiario") as response:
         body = response.read()
@@ -12,3 +12,5 @@ def lambda_handler(event, context):
         "statusCode": 200,
         "body": json.dumps("Hello from Lambda!")
     }
+    
+    
